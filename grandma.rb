@@ -5,7 +5,8 @@ def speak_to_grandma(phrase.upcase)
   elsif phrase.upcase == phrase.upcase
   return "NO, NOT SINCE 1938!"
 else phrase.upcase == phrase.downcase
-  return 
+  return "HUH?! SPEAK UP, SONNY!"
+end
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
